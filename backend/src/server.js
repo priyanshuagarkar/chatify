@@ -13,4 +13,4 @@ app.use("/api/auth", authRoutes);
 app.use("/api/message", messageRoutes);
 
 app.listen(3000, () => console.log("Server running on port: " + PORT)
-);
+); 
